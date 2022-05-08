@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Epilogue:wght@500&family=Fredoka+One&family=Jua&family=Kumbh+Sans:wght@300&family=Overpass&family=Poppins:wght@500&family=Righteous&family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="overlay hidden"></div>
+  <div class="hamburgercontainer">
+    <div class="closebtn">
+      <img id="closebutton" src="./images/icon-close-menu.svg" alt="">
+    </div>
+
+
+    <div class="hamburgernav">
+      <ul class="navul2">
+        <li class="navbtn2" id="features">Features <img class="arrow" src="./images/icon-arrow-down.svg" alt=""></span>
+          <div class="dropdownhamburger" id="dropdown">
+            <ul class="dropdownulhamburger">
+              <li> <img class="dropdownicon" src="./images/icon-todo.svg" alt=""> Todo List</li>
+              <li> <img class="dropdownicon" src="./images/icon-calendar.svg" alt=""> Calender</li>
+              <li> <img class="dropdownicon" src="./images/icon-reminders.svg" alt=""> Reminders</li>
+              <li> <img class="dropdownicon" src="./images/icon-planning.svg" alt=""> Planning</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="navbtn2">Company<span></span><img class="arrow" src="./images/icon-arrow-down.svg" alt=""></span>
+
+          <div class="dropdownhamburger" id="dropdown2">
+            <ul class="dropdownulhamburger">
+              <li> <img class="dropdownicon" alt="">History</li>
+              <li> <img class="dropdownicon" alt="">Our Team </li>
+              <li> <img class="dropdownicon" alt="">Blog</li>
+            </ul>
+          </div>
+
+        </li>
+        <li class="navbtn2">Careers
+        </li>
+        <li class="navbtn2">About</li>
+      </ul>
+    </div>
+
+    <div class="login2">
+      <div class="Login2">Login</div>
+      <button class="Register2">Register</button>
+    </div>
+
+
+
+  </div>
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="">
+    </div>
+
+    <div class="hamburger">
+      <img id="showbtn" src="./images/icon-menu.svg" alt="">
+    </div>
+
+    <div class="navbutton">
+      <ul class="navul">
+        <li class="navbtn" id="features">Features <img class="arrow" src="./images/icon-arrow-down.svg" alt=""></span>
+          <div class="dropdown" id="dropdown">
+            <ul class="dropdownul">
+              <li> <img class="dropdownicon" src="./images/icon-todo.svg" alt=""> Todo List</li>
+              <li> <img class="dropdownicon" src="./images/icon-calendar.svg" alt=""> Calender</li>
+              <li> <img class="dropdownicon" src="./images/icon-reminders.svg" alt=""> Reminders</li>
+              <li> <img class="dropdownicon" src="./images/icon-planning.svg" alt=""> Planning</li>
+            </ul>
+          </div>
+        </li>
+        <li class="navbtn">Company<span></span><img class="arrow" src="./images/icon-arrow-down.svg" alt=""></span>
+
+          <div class="dropdown" id="dropdown2">
+            <ul class="dropdownul">
+              <li> <img class="dropdownicon" alt="">History</li>
+              <li> <img class="dropdownicon" alt="">Our Team </li>
+              <li> <img class="dropdownicon" alt="">Blog</li>
+            </ul>
+          </div>
+
+        </li>
+        <li class="navbtn">Careers<span></span><img class="arrow" src="./images/icon-arrow-down.svg" alt=""></span></li>
+        <li class="navbtn">About<span></span><img class="arrow" src="./images/icon-arrow-down.svg" alt=""></span></li>
+      </ul>
+    </div>
+    <div class="login">
+      <div class="Login">Login</div>
+      <button class="Register">Register</button>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div class="text">
+      <div class="childtext">
+        <div class="header">
+          <h1>Make <br> remote work</h1>
+          <h2>Make remote work</h2>
+
+          <p> Get your team in sync, no matter your location. <br> Streamline processes,
+            create team rituals, and watch productivity soar.</p>
+          <div class="learnmore">
+            <button class="button"> Learn more</button>
+          </div>
+
+        </div>
+
+        <div class="sponsers">
+          <div class="childsponsers">
+            <img src="./images/client-databiz.svg" alt="">
+            <img src="./images/client-audiophile.svg" alt="">
+            <img src="./images/client-meet.svg" alt="">
+            <img src="./images/client-maker.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image">
+
+      <img class="childimage" src="./images/image-hero-desktop.png" alt="">
+      <div class="mobileimage">
+        <img class="childimagemobile" src="./images/image-hero-mobile.png" alt="">
+      </div>
+    </div>
+
+  </main>
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Dipu Chaurasiya</a>.
+
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+
+
+</html>
